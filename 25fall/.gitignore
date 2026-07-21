@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (not code)
+project/data/*.csv
+
+# Generated outputs
+project/report.pdf
+project/dashboard/
+
+# OS
+.DS_Store
+Thumbs.db
