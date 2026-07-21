@@ -11,6 +11,7 @@
 │   ├── 字符串/      # 字符串转换、大小写处理
 │   ├── 滑动窗口/    # 最长子串、DNA 序列
 │   ├── 其他/        # 素数、中位数、天数差
+│   ├── project/      # UrbanEnergyExplorer 数据分析项目
 │   └── Alien_Invasion/  # Pygame 外星人入侵小游戏
 ├── 26spring/        # 数据结构实现
 │   ├── Hash/        # 哈希表
