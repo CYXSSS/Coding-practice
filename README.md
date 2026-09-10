@@ -21,6 +21,9 @@
 │   ├── Sorting/     # 冒泡、选择、插入、归并、快排、计数、二分查找
 │   ├── String/      # 字符串压缩、Top-K、字符串匹配（BF / KMP / BM）
 │   └── Tree/        # 二叉树遍历、BST、AVL、B 树、B+ 树、哈夫曼编码、堆
+├── 26fall/          # 统计与机器学习
+│   ├── applied_statistics/  # 概率质量函数（PMF）可视化
+│   └── machine_learning/    # KNN 分类、加州房价回归
 ├── L04Project/      # 课程项目
 └── test.py          # 临时测试
 ```
