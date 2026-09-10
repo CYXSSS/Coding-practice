@@ -14,6 +14,7 @@
 │   ├── project/      # UrbanEnergyExplorer 数据分析项目
 │   └── Alien_Invasion/  # Pygame 外星人入侵小游戏
 ├── 26spring/        # 数据结构实现
+│   ├── L04Project/  # 课程项目
 │   ├── Hash/        # 哈希表
 │   ├── Linked_list/ # 单链表 / 双向链表
 │   ├── Queue/       # 队列
@@ -24,7 +25,6 @@
 ├── 26fall/          # 统计与机器学习
 │   ├── applied_statistics/  # 概率质量函数（PMF）可视化
 │   └── machine_learning/    # KNN 分类、加州房价回归
-├── L04Project/      # 课程项目
 └── test.py          # 临时测试
 ```
 
