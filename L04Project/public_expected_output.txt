@@ -1,0 +1,102 @@
+Document ID: 1004
+=== Operation A: Huffman Compression & Decompression ===
+Code Table:
+  ' ': 101
+  .: 1111001
+  R: 00001000
+  S: 00001001
+  T: 11110001
+  a: 0100
+  b: 1100010
+  c: 11111
+  d: 11001
+  e: 1110
+  f: 000000
+  g: 111101
+  h: 00111
+  i: 0101
+  k: 00001010
+  l: 01100
+  m: 01101
+  n: 0111
+  o: 1000
+  p: 00110
+  q: 000001
+  r: 1001
+  s: 0001
+  t: 1101
+  u: 0010
+  v: 000011
+  w: 1100011
+  x: 00001011
+  y: 110000
+  z: 11110000
+Original Length: 387 characters (3096 bits)
+Encoded Length: 1683 bits
+Compression Ratio: 54.36%
+Decompression Verified: True
+
+=== Operation B: Top-10 Frequent Words (Longer-Word Tie) ===
+  1. the: 78
+  2. to: 35
+  3. of: 31
+  4. in: 28
+  5. a: 20
+  6. and: 17
+  7. data: 11
+  8. with: 11
+  9. new: 11
+  10. health: 10
+Load Factor: 0.6289
+
+=== Operation C: KMP Pattern Search ===
+Pattern: "the"
+LPS Array: [0, 0, 0]
+  Doc 1002: 10 occurrence(s) at positions [0, 62, 75, 111, 132, 186, 196, 239, 281, 297]
+  Doc 1007: 9 occurrence(s) at positions [0, 65, 104, 157, 183, 193, 243, 285, 335]
+  Doc 1009: 7 occurrence(s) at positions [0, 106, 117, 237, 283, 314, 401]
+  Doc 1012: 7 occurrence(s) at positions [0, 39, 83, 144, 243, 260, 304]
+  Doc 1014: 7 occurrence(s) at positions [81, 100, 193, 230, 330, 356, 376]
+  Doc 1008: 5 occurrence(s) at positions [0, 56, 270, 318, 341]
+  Doc 1019: 5 occurrence(s) at positions [0, 25, 187, 306, 374]
+  Doc 1017: 4 occurrence(s) at positions [0, 74, 269, 297]
+  Doc 1004: 4 occurrence(s) at positions [15, 85, 190, 267]
+  Doc 1005: 4 occurrence(s) at positions [67, 98, 123, 203]
+  Doc 1011: 4 occurrence(s) at positions [68, 104, 196, 390]
+  Doc 1003: 3 occurrence(s) at positions [84, 195, 215]
+  Doc 1013: 3 occurrence(s) at positions [276, 371, 400]
+  Doc 1020: 2 occurrence(s) at positions [32, 233]
+  Doc 1015: 2 occurrence(s) at positions [56, 188]
+  Doc 1006: 2 occurrence(s) at positions [123, 308]
+  Doc 1001: 2 occurrence(s) at positions [178, 382]
+  Doc 1018: 2 occurrence(s) at positions [213, 297]
+  Doc 1010: 1 occurrence(s) at positions [159]
+  Doc 1016: 1 occurrence(s) at positions [336]
+
+Pattern: "data"
+LPS Array: [0, 0, 0, 0]
+  Doc 1006: 5 occurrence(s) at positions [0, 99, 153, 247, 323]
+  Doc 1001: 3 occurrence(s) at positions [89, 168, 412]
+  Doc 1011: 2 occurrence(s) at positions [74, 376]
+  Doc 1003: 2 occurrence(s) at positions [78, 319]
+  Doc 1009: 1 occurrence(s) at positions [144]
+
+Pattern: "machine learning"
+LPS Array: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Doc 1001: 1 occurrence(s) at positions [0]
+  Doc 1016: 1 occurrence(s) at positions [107]
+  Doc 1006: 1 occurrence(s) at positions [206]
+  Doc 1011: 1 occurrence(s) at positions [296]
+
+Pattern: "quantum computing"
+LPS Array: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Doc 1004: 2 occurrence(s) at positions [66, 303]
+
+Pattern: "health"
+LPS Array: [0, 0, 0, 0, 0, 1]
+  Doc 1010: 5 occurrence(s) at positions [7, 135, 192, 345, 370]
+  Doc 1016: 3 occurrence(s) at positions [83, 322, 384]
+  Doc 1005: 2 occurrence(s) at positions [278, 369]
+  Doc 1020: 1 occurrence(s) at positions [303]
+  Doc 1015: 1 occurrence(s) at positions [306]
+

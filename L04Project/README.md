@@ -1,0 +1,1 @@
+The Final Project files are included in the L04Project.zip attachment for this assignment. Please download and unzip the file before working on the project. After unzipping, you may see an extra folder named __MACOSX. This folder is automatically generated when files are compressed on macOS and is not part of the project files, so you can safely ignore it.
